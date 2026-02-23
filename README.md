@@ -4,6 +4,8 @@ O trabalho foi realizado como avaliação para a disciplina de Aprendizagem de M
 
 Os autores do trabalho são João Emanuel Mendonça Apóstolo e José Matheus Ribeiro dos Santos.
 
+Como forma de avaliação, foi feita uma resolução para a competição do Kaggle [`Toxic Comment Classification Challenge`](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge).
+
 Foi utilizado o modelo de Regressão Logística com abordagem One-vs-Rest para classificação multilabel. A representação textual foi realizada por meio de vetorização TF-IDF considerando unigramas e bigramas, com limite de 100.000 features. O modelo foi avaliado utilizando a métrica ROC-AUC macro, conforme exigido pela competição.
 
 Após submissão da solução, nossa pontuação privada foi de 0.97278 e nossa pontuação pública foi 0.97364.
